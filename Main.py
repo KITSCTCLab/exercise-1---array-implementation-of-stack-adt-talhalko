@@ -4,7 +4,7 @@ class Stack:
         self.size = size
         self.items = [None]*size
         
-        self.top=-1;
+        self.top=-1
 
     def is_empty(self):
         return self.top==-1
