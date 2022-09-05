@@ -20,7 +20,7 @@ class Stack:
             self.items[self.top]=data
             
 
-    def pop(self):
+    def pop(self)://pop function
         if not self.is_empty():
             x=self.items[self.top]
             self.top-=1
